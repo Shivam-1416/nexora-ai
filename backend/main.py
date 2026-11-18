@@ -46,7 +46,9 @@ if APP_ENV == "production":
 app = FastAPI(title="Nexora AI API", version="1.6.1")
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=CORS_ORIGINS,
+    allow_origins=[
+        "https://nexora-ai-production-6769d178.up.railway.app"
+    ],
     allow_credentials=True,
     allow_methods=["GET", "POST", "PATCH", "DELETE", "OPTIONS"],
     allow_headers=["Authorization", "Content-Type", "X-Request-ID"],
