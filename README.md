@@ -1,4 +1,4 @@
-# NEXORA AI — Enterprise Intelligence
+# Nexora AI: Unified Enterprise Debugging and Automation  System
 
 NEXORA AI is an enterprise issue-intelligence dashboard with a Next.js frontend and a FastAPI backend. Current workflows include issue monitoring, authenticated log analysis, audit history, integration management and outbound alert webhooks, rule-based root-cause analysis, fix recommendations, simulation history, reports, alerts, and system health metadata.
 
